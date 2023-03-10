@@ -77,11 +77,11 @@ func name(c echo.Context) error {
 func getName(id string) (string, error) {
 
 	if id == "1" {
-		return "阪田　将", nil
+		return "test_user1", nil
 	} else if id == "2" {
-		return "栗原　協", nil
+		return "test_user2", nil
 	} else if id == "3" {
-		return "満永　淳一", nil
+		return "test_user3", nil
 	}
 
 	err := errors.New("エラーです。")
